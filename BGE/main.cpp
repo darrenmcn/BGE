@@ -7,6 +7,7 @@
 #include <GL/glu.h>
 #include<glm.hpp>
 #include "Game.h"
+#include "MyGame.h"
 #include "TriangleTest.h"
 #include "TexturedCube.h"
 #include "CubeTest.h"
@@ -49,7 +50,7 @@ int main(int argc, char *argv[])
 	// http://www.youtube.com/watch?v=EEbVHxOkTxw
 	Params::Load("default");
 
-	shared_ptr<Game> game = make_shared<SceneGraphGame>();
+	shared_ptr<Game> game = make_shared<MyGame>();
 	game->Run();
 	
 	return 0;
