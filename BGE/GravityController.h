@@ -20,4 +20,3 @@ namespace BGE
 		glm::vec3 gravity;
 	};
 }
-

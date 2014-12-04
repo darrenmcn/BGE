@@ -20,7 +20,7 @@ namespace BGE
 {
 BGE::GravityController::GravityController(void)
 {
-	gravity = glm::vec3(0, 9.8, 0);
+	gravity = glm::vec3(0, -9.8, 0);
 }
 
 
